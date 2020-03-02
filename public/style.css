@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #2d3239;;
+}
+
+h2 {
+    color: #ffffffe0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    padding: 15px;
+}
+
+input.form-control {
+    background: rgb(25, 24, 31);
+    color: #ffffff;
+}
+
+
+input.form-control:focus {
+    background: rgb(25, 24, 31);
+    border-color: rgb(133, 101, 240);
+    color: #ffffff;
+}
+
+span.input-group-text {
+    background: rgb(113, 89, 193);
+    color: black;
+    border: none;
+}
+
+input.btn {
+    width: 100%;
+    background: rgb(113, 89, 193);
+    color: #ffffffc5;
+    border-color: #000000;
+}
+
+input#btnSubmit:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+label.title {
+    color: rgb(113, 89, 193);
+    text-align: left;
+}
+div.form-check {
+    color: #ffffff;
+    margin-left: -2%;
+}
+
+.col-principal {
+    width: 55%;
+    margin: 0 auto 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .col-principal {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    } 
+}
+
+  
