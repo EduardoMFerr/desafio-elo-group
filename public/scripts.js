@@ -31,8 +31,17 @@ const validarform = () => {
             return false;
         }
     }
-    document.querySelector('.btn').onclick = () => {
+    
+    var conf = confirm('Deseja enviar os dados?');
+    if (conf == true) {
+        document.querySelector('.btn').onclick = () => {
+            return false;
+        }
+        return true;
+    } 
+    else {
         return false;
     }
+
 }
 
