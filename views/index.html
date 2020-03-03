@@ -10,24 +10,24 @@
 </head>
 <body>
     <header>
-        <h2>Formulario</h2>
+        <h1>Formulario</h1>
     </header>
     </div>
     <div class="container" id="principal">
         <div class="row">
             <div class="col-principal">
-                <form action="/" method="POST" onsubmit="return validarform()">
+                <form action="http://localhost:8080" method="POST" target="_blank" onsubmit="return validarform()">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                           <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
                         </div>
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" pattern="^[A-z]{4,15} [A-z]{4,15}$" title="Informe seu nome e sobrenome">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Username" maxlength="45" aria-label="Username" aria-describedby="basic-addon1" pattern="^[A-z]{4,15} [A-z]{4,15} ?[?A-z]{0,}$" title="Informe seu nome e sobrenome">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                           <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone-alt"></i></span>
                         </div>
-                        <input type="text" name="tel" id="tel" class="form-control" placeholder="Telephone" aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" name="tel" id="tel" class="form-control" maxlength="12" placeholder="Telephone" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
                     <div class="input-group mb-3">
                         <label class="title">How you met us?</label>

@@ -14,7 +14,7 @@ const validarform = () => {
     }
     if (document.querySelector('#tel').value === '') {
         alert('Preencha o campo com o seu número de telefone');
-        document.querySelector('#tel').focus();
+        document.querySelector('#tel').focus()
         return false;
     }
     if (document.querySelector('#tv').checked === false && document.querySelector('#internet').checked === false && document.querySelector('#others').checked === false) {
@@ -31,6 +31,8 @@ const validarform = () => {
             return false;
         }
     }
+    document.querySelector('.btn').onclick = () => {
+        return false;
+    }
 }
-
 

@@ -10,10 +10,10 @@ body, html {
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #2d3239;;
+    background-color: #2d3239;
 }
 
-h2 {
+h1 {
     color: #ffffffe0;
     text-align: center;
     margin: 20px 0;
@@ -63,7 +63,7 @@ div.form-check {
 }
 
 .col-principal {
-    width: 55%;
+    width: 40%;
     margin: 0 auto 0 auto;
 }
 
