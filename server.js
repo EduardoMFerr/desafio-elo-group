@@ -19,7 +19,7 @@ server.post('/', (req, res) => {
     const howWeMet = [
         req.body.tv,
         req.body.internet,
-        req.body.others
+        req.body.other
     ];
     const socialNetworks = [
         req.body.facebook,

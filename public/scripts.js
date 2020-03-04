@@ -1,8 +1,17 @@
 document.querySelector('#name').focus();
+
 // Visualizar/Ocultar div com as informações das redes sociais.
 const show = (id) => document.getElementById(id).style.display = 'block';
 const hide = (id) => document.getElementById(id).style.display = 'none';
 
+const otherShow = (id) => {
+    if(document.getElementById(id).style.display == 'block') {
+        document.getElementById(id).style.display = 'none';
+    } 
+    else {
+        document.getElementById(id).style.display = 'block';
+    }
+} 
 
 
 // Validações do formulario.
@@ -30,6 +39,11 @@ const validarform = () => {
             alert('Por favor selecione uma das redes sociais');
             return false;
         }
+    }
+    if (document.querySelector('#inputRadio2').checked === true) {
+        document.querySelector('#facebook').disabled = true;
+        document.querySelector('#linkedin').disabled = true;
+        document.querySelector('#instagram').disabled = true;
     }
     
     var conf = confirm('Deseja enviar os dados?');

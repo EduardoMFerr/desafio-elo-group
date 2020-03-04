@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <h1>Formulario</h1>
+        <h1>Formulário</h1>
     </header>
+    <hr>
     </div>
     <div class="container" id="principal">
         <div class="row">
@@ -45,10 +46,11 @@
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="others" id="others" value="Outros" id="defaultCheck1">
+                                <input class="form-check-input" type="checkbox" name="others" id="others" value="Outros" id="defaultCheck1" onchange="otherShow('other')">
                                 <label class="form-check-label" for="others">
                                   Others
                                 </label>
+                                <input type="text" class="form-control" name="other" id="other">
                             </div>
                         </div>
                     </div>
@@ -59,12 +61,6 @@
                                 <input class="form-check-input" type="radio" name="inputRadio" id="inputRadio1" value="Sim" onchange="show('divOthers')">
                                 <label class="form-check-label" for="inputRadio" >
                                   Yes   
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="inputRadio" id="inputRadio2" value="Não" onchange="hide('divOthers')">
-                                <label class="form-check-label" for="inputRadio2">
-                                  No
                                 </label>
                             </div>
                             <div class="hidden" id="divOthers">
@@ -86,6 +82,12 @@
                                       Instagram
                                     </label>
                                 </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="inputRadio" id="inputRadio2" value="Não" onchange="hide('divOthers')">
+                                <label class="form-check-label" for="inputRadio2">
+                                  No
+                                </label>
                             </div>
                         </div>
                     </div>

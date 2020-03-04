@@ -16,7 +16,14 @@ body {
 h1 {
     color: #ffffffe0;
     text-align: center;
-    margin: 20px 0;
+    margin: 25px 0 20px 0;
+}
+
+hr {
+    background-color: #ffffff;
+    width: 95%;
+    border: 2px solid;
+    margin: 0 auto 40px auto;
 }
 
 form {
@@ -68,6 +75,10 @@ div.form-check {
 }
 
 .hidden {
+    display: none;
+}
+#other {
+    margin: 2% 0 0 -6%;
     display: none;
 }
 
