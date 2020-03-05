@@ -45,13 +45,21 @@ input.form-control {
 
 
 input.form-control:focus {
-    background: #f1f1f1;
+    background: rgba(241, 241, 241);
 }
 
-span.input-group-text {
+span.input-group-text, #inputSelect{
     background: rgba(239, 197, 38, 1);
     color: rgba(2, 2, 2, 1);
     border: none;
+}
+
+label#inputSelect, #basic-addon  {
+    width: 40px;
+}
+
+.custom-select {
+    border-color: rgba(2, 2, 2, 1);
 }
 
 input.btn {

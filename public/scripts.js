@@ -4,15 +4,6 @@ document.querySelector('#name').focus();
 const show = (id) => document.getElementById(id).style.display = 'block';
 const hide = (id) => document.getElementById(id).style.display = 'none';
 
-const otherShow = (id) => {
-    if(document.getElementById(id).style.display == 'block') {
-        document.getElementById(id).style.display = 'none';
-    } 
-    else {
-        document.getElementById(id).style.display = 'block';
-    }
-} 
-
 
 // Validações do formulario.
 const validarform = () => { 
@@ -26,7 +17,7 @@ const validarform = () => {
         document.querySelector('#tel').focus()
         return false;
     }
-    if (document.querySelector('#tv').checked === false && document.querySelector('#internet').checked === false && document.querySelector('#others').checked === false) {
+    if (document.querySelector('#inputGroupSelect').selectedIndex == 0) {
         alert('Por favor selecione uma das opções abaixo');
         return false;
     }

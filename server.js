@@ -17,9 +17,7 @@ server.post('/', (req, res) => {
     const name = req.body.name;
     const telephone = req.body.tel;
     const howWeMet = [
-        req.body.tv,
-        req.body.internet,
-        req.body.other
+        req.body.inputGroupSelect
     ];
     const socialNetworks = [
         req.body.facebook,
