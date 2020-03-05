@@ -9,21 +9,33 @@ body, html {
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    /* background-color: #2d3239; */
+    font-family: Flexo, sans-serif;
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: 'Flexo Thin';
+    src: url('Flexo-Thin.eot');
+    src: url('Flexo-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Flexo-Thin.woff') format('woff'),
+    url('Flexo-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+
+header {
+    background-color: #000000;
+    margin-bottom: 50px;
 }
 
 h1 {
-    /* color: #ffffffe0; */
+    color: #ffffffe0;
     text-align: center;
-    margin: 25px 0 20px 0;
+    /* background-color: #000000; */
+    padding: 20px 0;
 }
 
-hr {
-    width: 95%;
-    border: 2px solid;
-    margin: 0 auto 40px auto;
-}
 
 form {
     padding: 15px;
@@ -31,13 +43,14 @@ form {
 
 input.form-control {
     /* background: rgb(25, 24, 31); */
+    border-color: rgb(133, 101, 240);
     /* color: #ffffff; */
 }
 
 
 input.form-control:focus {
     background: #f1f1f1;
-    border-color: rgb(133, 101, 240);
+    border-color: blue;
     /* color: #ffffff; */
 }
 
