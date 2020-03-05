@@ -10,17 +10,16 @@ body, html {
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #2d3239;
+    /* background-color: #2d3239; */
 }
 
 h1 {
-    color: #ffffffe0;
+    /* color: #ffffffe0; */
     text-align: center;
     margin: 25px 0 20px 0;
 }
 
 hr {
-    background-color: #ffffff;
     width: 95%;
     border: 2px solid;
     margin: 0 auto 40px auto;
@@ -31,15 +30,15 @@ form {
 }
 
 input.form-control {
-    background: rgb(25, 24, 31);
-    color: #ffffff;
+    /* background: rgb(25, 24, 31); */
+    /* color: #ffffff; */
 }
 
 
 input.form-control:focus {
-    background: rgb(25, 24, 31);
+    background: #f1f1f1;
     border-color: rgb(133, 101, 240);
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 span.input-group-text {
@@ -51,7 +50,7 @@ span.input-group-text {
 input.btn {
     width: 100%;
     background: rgb(113, 89, 193);
-    color: #ffffffc5;
+    /* color: #ffffffc5; */
     border-color: #000000;
 }
 
@@ -65,7 +64,7 @@ label.title {
     text-align: left;
 }
 div.form-check {
-    color: #ffffff;
+    /* color: #ffffff; */
     margin-left: -2%;
 }
 
