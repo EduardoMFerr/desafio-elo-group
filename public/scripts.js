@@ -30,6 +30,10 @@ const validarform = () => {
         alert('Por favor selecione uma das opções abaixo');
         return false;
     }
+    if (document.querySelector('#others').checked === true) {
+        alert('Por favor digite a outra forma que nos conheceu.');
+        return false;
+    }
     if (document.querySelector('#inputRadio1').checked === false && document.querySelector('#inputRadio2').checked === false) {
         alert('Por favor, selecione se você tem redes socais!');
         return false;
