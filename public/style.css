@@ -10,7 +10,6 @@ body, html {
 
 body {
     font-family: Flexo, sans-serif;
-    background-color: #fff;
 }
 
 @font-face {
@@ -30,9 +29,8 @@ header {
 }
 
 h1 {
-    color: #ffffffe0;
+    color: rgba(255, 255, 255);
     text-align: center;
-    /* background-color: #000000; */
     padding: 20px 0;
 }
 
@@ -42,42 +40,35 @@ form {
 }
 
 input.form-control {
-    /* background: rgb(25, 24, 31); */
-    border-color: rgb(133, 101, 240);
-    /* color: #ffffff; */
+    border-color: rgba(2, 2, 2, 1);
 }
 
 
 input.form-control:focus {
     background: #f1f1f1;
-    border-color: blue;
-    /* color: #ffffff; */
 }
 
 span.input-group-text {
-    background: rgb(113, 89, 193);
-    color: black;
+    background: rgba(239, 197, 38, 1);
+    color: rgba(2, 2, 2, 1);
     border: none;
 }
 
 input.btn {
     width: 100%;
-    background: rgb(113, 89, 193);
-    /* color: #ffffffc5; */
-    border-color: #000000;
+    background: rgba(2, 2, 2, 1);
+    color: rgba(255, 255, 255);
 }
 
 input#btnSubmit:hover {
-    border-color: #ffffff;
-    color: #ffffff;
+    border-color: rgba(255, 255, 255);
 }
 
 label.title {
-    color: rgb(113, 89, 193);
+    color: rgba(2, 2, 2, 1);
     text-align: left;
 }
 div.form-check {
-    /* color: #ffffff; */
     margin-left: -2%;
 }
 
@@ -90,7 +81,7 @@ div.form-check {
     display: none;
 }
 #other {
-    margin: 2% 0 0 -6%;
+    margin-top: 2%;
     display: none;
 }
 
